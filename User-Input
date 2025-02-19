@@ -1,0 +1,14 @@
+import java.util.Scanner;
+
+public class Pracitice {
+    public static void main(String[] args) {
+        Scanner obj = new Scanner(System.in);
+        int num = obj.nextInt();
+        String Str = obj.next();
+        char ch = obj.next().charAt(0);
+
+        System.out.println(num);
+        System.out.println(Str);
+        System.out.println(ch);
+    }
+}
